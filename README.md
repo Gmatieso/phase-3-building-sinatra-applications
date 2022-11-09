@@ -15,6 +15,13 @@
     Rakefile: 
     Code for common tasks that we can easily run from the command line, like rake console.
 
+## MVC 
+
+    Models: responsible for working with the database
+    Views: responsible for what the user sees on the webpage (typically, views are some form of HTML template)
+    Controllers: responsible for receiving a request and using the model to generate data needed for the view
+
+
 
 ## Learning Goals
 
