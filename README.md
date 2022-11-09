@@ -1,5 +1,21 @@
 # Sinatra Application Structure
 
+    app/models: 
+    Our Active Record models. Responsible for code that accesses and updates data in our database using classes that inherit from ActiveRecord::Base.
+    config: 
+    Code in this folder is responsible for our environment setup, like requiring files/gems, and establishing a connection to the database.
+    db/migrate: 
+    Our Active Record migrations. Responsible for creating and altering the structure of the database (making new tables, adding columns to existing tables, etc).
+    db/seed.rb: 
+    Lets us easily add sample data to the database.
+    spec: 
+    Our RSpec tests.
+    Gemfile: 
+    Lists all the gems our application depends on.
+    Rakefile: 
+    Code for common tasks that we can easily run from the command line, like rake console.
+
+
 ## Learning Goals
 
 - Understand the typical file structure for a Sinatra application
