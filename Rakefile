@@ -9,3 +9,9 @@ task :console do
   # Open a Pry session
   Pry.start
 end
+
+#making it a bit easier to start the server 
+desc "Start the server"
+task :server do
+  exec "rerun -b 'rackup config.ru'"
+end

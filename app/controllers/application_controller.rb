@@ -2,7 +2,7 @@
 class ApplicationController < Sinatra::Base
 
     get '/' do
-      '<h2>Hello <em>World</em>!</h2>'
+      '<h2>Hello <em>Tech_G Keep up the Good Job you really Trying </em>!</h2>'
     end
   
   end
